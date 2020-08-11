@@ -25,6 +25,15 @@ namespace hoja_de_trabajo
             Console.Write("Den: ");
             Denominador2 = Convert.ToInt32( Console.ReadLine());
 
+            int Resultado;
+            int Resultado1;
+
+            Resultado = Numerador*Numerador2;
+            Resultado1 = Denominador*Denominador2;
+            Console.WriteLine(" "+ Resultado);
+            Console.WriteLine("---");
+            Console.WriteLine(" "+ Resultado1);
+
             Console.ReadKey();
         }
     }
