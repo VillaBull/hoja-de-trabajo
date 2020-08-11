@@ -30,6 +30,9 @@ namespace hoja_de_trabajo
 
             Resultado = Numerador*Numerador2;
             Resultado1 = Denominador*Denominador2;
+
+            Console.WriteLine("El resultado de la multiplicación es:");
+
             Console.WriteLine(" "+ Resultado);
             Console.WriteLine("---");
             Console.WriteLine(" "+ Resultado1);
